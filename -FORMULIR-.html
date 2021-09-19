@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, td, th { border: 1px solid black; border-collapse: collapse; }  
+    </style>
+</head>
+<body>
+<center>
+        <font face="tahoma">
+        <h3>KUISIONER PENDAPATAN PRODUKSI PERIKANAN TANGKAP</h3>
+        <h5>Kementrian Kelautan dan Perikanan</h5>
+        <img src="KKP.png" widht="100" height="100">
+        </font>
+</center>
+<center>
+    <h4 style="background-color: aliceblue;">BLOK I: KETERANGAN TEMPAT USAHA</h4>
+</center>
+    101 Provinsi &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;:&ensp;   .................... 
+    <hr>
+    102 Kabupaten/Kota *) &ensp;&ensp;: &ensp; .................... 
+    <hr>
+    103 Kelurahan &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;:&ensp;   .................... 
+    <hr>
+    104 Desa/Kelurahan *) &ensp;&ensp;:&ensp;   .................... 
+    <hr>
+    <h6>keterangan: *) Coret yang tidak sesuai</h6>
+
+<center>
+    <h4 style="background-color: aliceblue;">BLOK II: IDENTITAS USAHA</h4>
+</center>
+<table>
+    <tr>
+                <td align="left"> 201. </td>
+                <td align="left">Nama RTP/Perusahaan Ikan </td>
+                <td> : <input type="text" name="RTP" placeholder="masukan RTP anda" size="40"></td>
+            </tr>
+            <tr>
+                <td align="left"> 202. </td>
+                <td align="left">Nomor Induk Kependudukan (NIK)/SIUP </td>
+                <td> : <input type="text" name="NIK/SIUP" placeholder="masukan NIK/SIUP anda" size="40"></td>
+            </tr>
+             <tr>
+                <td align="left"> 203. </td>
+                <td align="left">Jenis Usaha Penangkapan Ikan </td>
+                <td> : 
+                    <input type="radio" name="pilih"> 1. Penangkapan Ikan di Laut (<b>Langsung ke 205</b>)
+                    <input type="radio" name="pilih"> 2. Penangkapan Ikan di Laut
+                </td>
+            </tr>
+            <tr>
+                <td align="left" rowspan="2"> 204. </td>
+                <td> a. Jenis Perairan </td>
+                <td> : 
+                    <input type="radio" name="pilih"> Sungai
+                    <input type="radio" name="pilih"> Danau
+                    <input type="radio" name="pilih"> Rawa
+                    <input type="radio" name="pilih"> Genangan air lainnya</td>        
+            </tr>
+            <tr> 
+                <td> b. Nama Ekosistem </td>
+                <td> : 
+                    <input type="text" name="ekosistem" size="40">
+                </td>
+            </tr>
+            <tr>
+                <td align="left"> 205.</td>
+                <td align="left"> Sarana Penangkapan </td> 
+                <td> : 
+                    <input type="radio" name="pilih"> Tanpa Perahu
+                    <input type="radio" name="pilih"> Perahu Tanpa Motor
+                    <input type="radio" name="pilih"> Perahu Motor Tempel
+                    <input type="radio" name="pilih"> Kapal Motor
+                </td>
+            </tr>
+            <tr> 
+                <td align="left"> 206. </td>
+                <td align="left"> Ukuran Perahu Kapal </td>
+                <td> :<input type="text" name="Perahu Motor Tempel" placeholder="Perahu Motor Tempel.....GT" size="20"> <input type="text" name="Kapal Motor" placeholder="Kapal Motor......GT" size="15"></td>  
+                
+            </tr>
+            <tr>
+                <td align="left"> 207. </td>
+                <td align="left"> Jumlah ABK </td>
+                <td>: <input type="text" name="juamlah ABK" size="40"></td>
+            </tr>
+            <tr>
+                <td align="left" rowspan="3"> 208. </td>
+                <td align="left"><b> Jenis Alat Tangkap</b></td>
+                <td> : </td>
+            </tr>
+            <tr>
+                <td> a. Alat Tangkap Utama </td>
+                <td> : 
+                    <input type="text" name="ukuran" size="15"> Jumlah
+                    <input type="text" name="ukuran" size="2"> Unit
+                </td>  
+            </tr>
+            <tr>
+                <td> b. Alat Tangkap Tambahan </td>
+                <td> :
+                    <input type="text" name="ukuran" size="15"> Jumlah
+                    <input type="text" name="ukuran" size="2"> Unit
+                </td>
+            </tr>
+            <tr>
+                <td align="left"> 209. </td>
+                <td align="left">Wilayah Penangkapan Ikan 
+                    <td> :<input type="text" name="WPP 1" placeholder="WPP 1" size="15"> <input type="text" name="WPP" placeholder="WPP 2"" size="15"></td>
+                </td>
+            </tr>
+            <tr>
+                <td align="left"> 210. </td>
+                <td align="left">Daerah Operasi Penangkapan Perairan
+                    <td> : <input type="text" name="DOPP 1" placeholder="masukan daerah operasi" size 40 ></td>
+            </tr>
+            <tr>
+                <td align="left" rowspan="3"> 211. </td>
+                <td align="left"><b> Daerah Asal Unit Penangkapan Ikan </b></td>
+                <td> : </td>
+            </tr>
+            <tr>
+                <td> 1. dari Kabupaten Asli </td>
+                <td> : 
+                    <input type="text" name="1" placeholder="sebutkan" size="15">  
+                </td>  
+            </tr>
+            <tr>
+                <td> 2. dari Kabupaten Lain </td>
+                <td> :
+                    <input type="text" name="2" placeholder="sebutkan" size="15"> 
+                </td>
+            </tr>
+            <tr>
+                <td align="left"> </td>
+                <td align="left">Keterangan
+                <td> a). Jenis Perairan diisi apabila melakukan usaha penangkapan ikan di perairan umum
+                <br> b). Hanya Untuk Jenis Perairan Umum, khusus untu Sungai, Danau dan Waduk, 
+                <br> Nama Ekosistem mengikuti kode yaang sesuai
+                <br> c). WPP diisi pabila melakukan usaha penangkapan ikan di laut, jika melakukan
+                <br> lebih dari satu WPP data produksi dicatat di kuisioner baru
+                </td>
+            </tr>
+    </table>
+    <center>
+    <h4 style="background-color: aliceblue;">BLOK III: PRODUKSI PERIKANAN TANGKAP</h4>
+</center>
+     <br> 301 Jumlah Trip Penangkapan Bulan lalu &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;:&ensp;......................................
+     <hr>
+        302 Jenis Alat Tangkap Utama
+       <br> a. Rata-rata volume hasil tangkapan yang dijual per trip (kg) &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;:&ensp;......................................
+       <br> b. Rata-rata volume hasil tangkapan yang tidak dijual per trip (kg) &nbsp;&ensp;&ensp;&ensp;:&ensp;......................................
+    <hr>
+        303 Jenis Alat Tangkap Tambahan 
+        <br> a. Rata-rata volume hasil tangkapan yang dijual per trip (kg) &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;:&ensp;......................................
+        <br> b. Rata-rata volume hasil tangkapan yang tidak dijual per trip (kg) &nbsp;&ensp;&ensp;&ensp;:&ensp;......................................
+    <hr>
+<label>304 Biaya Operasi Penangkapan (BOP) per Bulan</label>
+<div class="container">
+        <table class="table">
+            <thead>
+                <tr align="center">
+                    <th><label>Jenis BOP</label></th>
+                    <th><label>volume</label></th>
+                    <th><label>Satuan(Litter/Kg)</label></th>
+                    <th><label>Harga(Rp.)</label></th>
+                    <th><label>Nilai(Rp.)</label></td>  
+                </tr>
+            </thead>
+            <tbody>
+                <tr align="center">
+                    <td>(1)</td>
+                    <td>(2)</td>
+                    <td>(3)</td>
+                    <td>(4)</td>
+                    <td>(5)</td>
+                </tr>
+                <tr align="center">
+                    <td align="left">1. Solar</td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="left">2. Bensin</td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="left">3. Oli</td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="left">4. Minyak Tanah</td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="left">5. Es</td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="left">6. Garam</td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="left">7. Umpan</td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="left">8. Air Bersih</td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="left">9. Perbekalan</td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="left">10. Upah ABK</td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <label>305 Hasil Tangkapan Menurut Jenis Ikan (Alata Tangkap Utama)</304></label>
+<div class="container">
+        <table class="table">
+            <thead>
+                <tr align="center">
+                    <th align="left"><label>Jenis Ikan Hasil Tangakapan </label></th>
+                    <th><label>Proporsi(Persen)**)</label></th>
+                    <th><label>Harga/Kg(Rp)</label></th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr align="center">
+                    <td align="center">1.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">2.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    
+                </tr>
+                <tr align="center">
+                    <td align="center">3.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                   
+                </tr>
+                <tr align="center">
+                    <td align="center">4.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                   
+                </tr>
+                <tr align="center">
+                    <td align="center">5.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                   
+                </tr>
+                <tr align="center">
+                    <td align="center">6.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    
+                </tr>
+                <tr align="center">
+                    <td align="center">7.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    
+                </tr>
+                <tr align="center">
+                    <td align="center">8.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                   
+                </tr>
+                <tr align="center">
+                    <td align="center">9.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    
+                </tr>
+                <tr align="center">
+                    <td align="center">10.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">11.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">12.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">13.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">14.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">15.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <label>306 Hasil Tangkapan Menurut Jenis Ikan (Alata Tangkap Lainnya)</label>
+<div class="container">
+        <table class="table">
+            <thead>
+                <tr align="center">
+                    <th align="left"><label>Jenis Ikan Hasil Tangakapan </label></th>
+                    <th><label>Proporsi(Persen)**)</label></th>
+                    <th><label>Harga/Kg(Rp)</label></th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr align="center">
+                    <td align="center">1.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">2.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    
+                </tr>
+                <tr align="center">
+                    <td align="center">3.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                   
+                </tr>
+                <tr align="center">
+                    <td align="center">4.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                   
+                </tr>
+                <tr align="center">
+                    <td align="center">5.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                   
+                </tr>
+                <tr align="center">
+                    <td align="center">6.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    
+                </tr>
+                <tr align="center">
+                    <td align="center">7.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    
+                </tr>
+                <tr align="center">
+                    <td align="center">8.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                   
+                </tr>
+                <tr align="center">
+                    <td align="center">9.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    
+                </tr>
+                <tr align="center">
+                    <td align="center">10.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">11.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">12.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">13.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">14.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+                <tr align="center">
+                    <td align="center">15.<input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                    <td><input type="text"name=""></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+<hr>
+    <font size ="2" face=arial >Keterangan:</font><br>
+    <font size ="2" face=arial >*) Volume hasil tangkapan yang tidak dijual diantaranya seperti dimakan sendiri di rumah, diberikan kepada orang lain, dimakan di kapal, dll</font><br>
+    <font size ="2" face=arial >**) Jumlah proporsi untuk seluruh jenis ikan adalah 100 persen</font><br>
+<center>
+    <h4 style="background-color: aliceblue;">BLOK IV: PENGESAHAN</h4>
+</center>
+        401 Nama Responden     &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;:&ensp;......................................
+        <hr>
+        402 Nomor Telepon/HP    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;:&ensp;.....................................
+        <hr>
+        403 Nama Pengolah Data  &nbsp;&ensp;&ensp;&ensp;&ensp;&nbsp;&nbsp;:&ensp;.....................................
+        <hr>
+        404 Kode Pengolah Data/NIK&nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;:&ensp;.............................
+        <hr>
+        405 Tanggal Pencatatan  &ensp;&ensp;&ensp;&ensp;&ensp;:&ensp;.........................................
+        <hr>
+<center>
+    <h4 style="background-color: aliceblue;">BLOK V: CATATAN</h4>
+</center>
+    <br>
+        <hr>
+        <font size ="3" face=times new roman>Apabila ada hal-hal yang memerlukan keterangan lebih lanjut, tuliskan pada blok ini. Selain informasi dari responden, Petugas pengolah data juga bisa menambahkan catatan untuk memperjelas masalah yang berkaitan dengan daftar isian.</font>
+        <textarea class="form-control"></textarea>
+        <br>
+        <input type="submit" value="Kumpulkan" size="40">
+        <hr>
+    </br>
+</html>
